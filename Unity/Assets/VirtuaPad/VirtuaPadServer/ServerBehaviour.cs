@@ -34,7 +34,7 @@ public class ServerBehaviour : MonoBehaviour
 			DontDestroyOnLoad(gameObject);
 			
 			//connect beacon manager to server
-			server.AddTcpEventSubscriber(Tags.avatarBeacon, GetComponent<AvatarBeaconManager>());
+			//server.AddTcpEventSubscriber(Tags.avatarBeacon, GetComponent<AvatarBeaconManager>());
 			
 			if(Application.loadedLevelName.Contains("Presentation") == false)
 				server.AllowClientsToJoinGame();

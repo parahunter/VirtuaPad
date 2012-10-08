@@ -1,0 +1,8 @@
+
+#Folders that should be ignored in the unity project
+Temp/
+Library/
+
+#Files that should not be tracked either
+
+
